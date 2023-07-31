@@ -7,7 +7,7 @@ if [ -x "$(command -v julia)" ]; then
     exit 0
 fi
 
-version = "1.8.5"
+version="1.8.5"
 
 # Downloads the installer with wget or curl
 if [ -x "$(command -v wget)" ]; then
